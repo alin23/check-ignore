@@ -2,6 +2,11 @@
 
 A simple command line tool for checking if files are ignored by patterns in a .gitignore file.
 
+### Install
+```shell
+cargo install check-ignore
+```
+
 ### Usage
 ```rust
 check-ignore 1.0.0
