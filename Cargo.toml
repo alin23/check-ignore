@@ -12,8 +12,6 @@ keywords = [
     "gitignore",
     "ignore",
     "file",
-    "filesystem",
-    "tool",
 ]
 license-file = "LICENSE"
 readme = "README.md"
