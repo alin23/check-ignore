@@ -1,0 +1,26 @@
+[package]
+name = "check-ignore"
+version = "1.0.0"
+authors = ["Alin Panaitiu <alin.panaitiu@gmail.com>"]
+edition = "2018"
+categories = ["command-line-utilities"]
+description = "A simple command line tool for checking if files are ignored by patterns in a .gitignore file."
+homepage = "https://github.com/alin23/check-ignore"
+keywords = [
+    "git",
+    "check",
+    "gitignore",
+    "ignore",
+    "file",
+    "filesystem",
+    "tool",
+]
+license-file = "LICENSE"
+readme = "README.md"
+repository = "https://github.com/alin23/check-ignore"
+
+[dependencies]
+ansi_term = "0.12.1"
+atty = "0.2.14"
+ignore = "0.4.17"
+structopt = "0.3.21"
